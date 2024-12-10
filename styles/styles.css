@@ -1,0 +1,81 @@
+.view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bar {
+    display: flex;
+    text-decoration: underline;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.footer-item {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.header-text {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.body-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-weight: light;
+}
+
+.joke-lead {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.joke-sub {
+    font-size: 24px;
+    font-weight: normal;
+}
+.joke-1 {
+    color: orchid;
+}
+
+.joke-2 {
+    color:blueviolet;
+}
+
+.joke-3 {
+    color: orange;
+}
+
+.joke-img {
+    height: 400px;
+    width: 100%;
+}
+
+.bg-joke-1 {
+    background-color: azure;
+}
+
+.bg-joke-2 {
+    background-color: cadetblue;
+}
+
+.bg-joke-3 {
+    background-color: gainsboro;
+}
